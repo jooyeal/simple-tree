@@ -4,22 +4,38 @@ function App() {
   const data: TreeNode[] = [
     {
       id: "1",
-      parent: "0",
       label: "hello",
     },
     {
       id: "2",
-      parent: "0",
       label: "hello",
     },
     {
       id: "3",
-      parent: "0",
       label: "hello",
     },
     {
       id: "4",
-      parent: "0",
+      label: "hello",
+    },
+    {
+      id: "5",
+      parent: "1",
+      label: "hello",
+    },
+    {
+      id: "6",
+      parent: "1",
+      label: "hello",
+    },
+    {
+      id: "7",
+      parent: "2",
+      label: "hello",
+    },
+    {
+      id: "8",
+      parent: "3",
       label: "hello",
     },
   ];

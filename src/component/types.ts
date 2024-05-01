@@ -4,6 +4,7 @@ export interface TreeNode<T = any> {
   label: string;
   draggable?: boolean;
   droppable?: boolean;
+  opened?: boolean;
   info?: T;
 }
 
